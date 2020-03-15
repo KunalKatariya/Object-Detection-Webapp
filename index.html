@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cat detection</title>
+    <!-- Load TensorFlow.js. This is required to use coco-ssd model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.7"></script>
+    <!-- Load the coco-ssd model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+
+  <body>
+    <div class="NavBar">
+      <h1>Object Detection Webapp</h1>
+    </div>
+    <select id='base_model'>
+      <option value="lite_mobilenet_v2">Coco SSD</option>
+    </select>
+
+    <button type="button" id="run">Run</button>
+    <button type="button" id="toggle">Toggle Image</button>
+    <div id="image_section">
+      <img id="img" src="use1.jpg"/>
+      <canvas id="canvas" width="600" height="399"></canvas>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

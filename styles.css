@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+h1 {
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+.NavBar {
+  background-color: #202020;
+  overflow: hidden;
+}
+
+#base_model {
+  background-color: #FFFFFF;
+  border: none;
+  color: white;
+}
+#image_section {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+#run {
+  background-color: #F0F0F0;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  right: 800px;
+  bottom: 150px;
+}
+
+
+#run:hover {
+  background-color: #909090;
+  color: white;
+}
+
+#toggle {
+  background-color: #F0F0F0;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  right: 630px;
+  bottom: 154px;
+}
+
+
+#toggle:hover {
+  background-color: #909090;
+  color: white;
+}
